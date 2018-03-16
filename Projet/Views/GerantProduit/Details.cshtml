@@ -1,0 +1,84 @@
+﻿@model Produit
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Produit</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.AskedPrice)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.AskedPrice)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SalePrice)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SalePrice)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ShortDescription)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ShortDescription)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LongDescription)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LongDescription)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Weight)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Weight)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageUrl)
+        </dt>
+        <dd>
+            <img src="@Url.Content(Model.ImageUrl)" alt="Non disponible" />
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.isPopular)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.isPopular)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.InStock)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.InStock)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantite)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Quantite)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Category.CategoryId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ProduitId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

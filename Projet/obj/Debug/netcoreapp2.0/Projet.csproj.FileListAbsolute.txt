@@ -1,0 +1,36 @@
+C:\Users\user\Desktop\Projet .NET\version11\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Projet .NET\version11\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\user\Desktop\Projet .NET\version11\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Projet .NET\version11\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet.AssemblyInfo.cs
+C:\Users\user\Desktop\Projet .NET\version11\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet.deps.json
+C:\Users\user\Desktop\Projet .NET\version11\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet.runtimeconfig.json
+C:\Users\user\Desktop\Projet .NET\version11\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet.runtimeconfig.dev.json
+C:\Users\user\Desktop\Projet .NET\version11\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet.dll
+C:\Users\user\Desktop\Projet .NET\version11\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet.pdb
+C:\Users\user\Desktop\Projet .NET\version11\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Projet .NET\version11\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet.dll
+C:\Users\user\Desktop\Projet .NET\version11\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet.pdb
+C:\Users\user\Desktop\Projet .NET\version11\Projet\Projet\bin\Debug\netcoreapp2.0\Projet.deps.json
+C:\Users\user\Desktop\Projet .NET\version11\Projet\Projet\bin\Debug\netcoreapp2.0\Projet.runtimeconfig.json
+C:\Users\user\Desktop\Projet .NET\version11\Projet\Projet\bin\Debug\netcoreapp2.0\Projet.runtimeconfig.dev.json
+C:\Users\user\Desktop\Projet .NET\version11\Projet\Projet\bin\Debug\netcoreapp2.0\Projet.dll
+C:\Users\user\Desktop\Projet .NET\version11\Projet\Projet\bin\Debug\netcoreapp2.0\Projet.pdb
+C:\Users\user\Desktop\Projet .NET\version11\Projet\Projet\obj\Debug\netcoreapp2.0\Projet.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Projet .NET\version11\Projet\Projet\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\user\Desktop\Projet .NET\version11\Projet\Projet\obj\Debug\netcoreapp2.0\Projet.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Projet .NET\version11\Projet\Projet\obj\Debug\netcoreapp2.0\Projet.AssemblyInfo.cs
+C:\Users\user\Desktop\Projet .NET\version11\Projet\Projet\obj\Debug\netcoreapp2.0\Projet.dll
+C:\Users\user\Desktop\Projet .NET\version11\Projet\Projet\obj\Debug\netcoreapp2.0\Projet.pdb
+C:\Users\user\Desktop\Projet .NET\version11\Projet\Projet\obj\Debug\netcoreapp2.0\Projet.csprojResolveAssemblyReference.cache
+C:\Users\Portable\Documents\Projet\Projet\bin\Debug\netcoreapp2.0\Projet.deps.json
+C:\Users\Portable\Documents\Projet\Projet\bin\Debug\netcoreapp2.0\Projet.runtimeconfig.json
+C:\Users\Portable\Documents\Projet\Projet\bin\Debug\netcoreapp2.0\Projet.runtimeconfig.dev.json
+C:\Users\Portable\Documents\Projet\Projet\bin\Debug\netcoreapp2.0\Projet.dll
+C:\Users\Portable\Documents\Projet\Projet\bin\Debug\netcoreapp2.0\Projet.pdb
+C:\Users\Portable\Documents\Projet\Projet\obj\Debug\netcoreapp2.0\Projet.csprojResolveAssemblyReference.cache
+C:\Users\Portable\Documents\Projet\Projet\obj\Debug\netcoreapp2.0\Projet.csproj.CoreCompileInputs.cache
+C:\Users\Portable\Documents\Projet\Projet\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Portable\Documents\Projet\Projet\obj\Debug\netcoreapp2.0\Projet.AssemblyInfoInputs.cache
+C:\Users\Portable\Documents\Projet\Projet\obj\Debug\netcoreapp2.0\Projet.AssemblyInfo.cs
+C:\Users\Portable\Documents\Projet\Projet\obj\Debug\netcoreapp2.0\Projet.dll
+C:\Users\Portable\Documents\Projet\Projet\obj\Debug\netcoreapp2.0\Projet.pdb

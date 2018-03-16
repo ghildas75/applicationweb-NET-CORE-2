@@ -1,0 +1,17 @@
+﻿@using Microsoft.EntityFrameworkCore
+@inject ApplicationDbContext _context
+@{var Sequence = _context.categories.Include("Produits").ToList();}
+
+<ul class="list-group">
+    @foreach (var category in Sequence)
+    {
+
+        @*@Html.ActionLink(category.CategoryName, "Browse", "Home", new { Category = category.CategoryName}, null)*@
+
+        <li class="list-group-item btn btn-success " role="button">
+            <a asp-action="Browse" asp-controller="Home" asp-route-id="@category.CategoryId">@category.CategoryName</a> <span class="badge"> (@category.Produits.Count)</span>
+        </li>
+
+
+    }
+</ul>

@@ -1,0 +1,37 @@
+﻿@model PanierViewModel
+@{
+    ViewData["Title"] = "Panier";
+}
+<h2>Votre Panier</h2>
+<h4>produits du votre panier</h4>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+
+            <th>Quantite</th>
+            <th>Produit</th>
+            <th class="text-right">Prix</th>
+            <th class="text-right">Sous Total</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var line in Model.ShoppingCart.ShoppingCartItems)
+        {
+            <tr>
+                <td>@line.Amount</td>
+                <td>@line.Produit.Name</td>
+                <td>@line.Produit.SalePrice.ToString("c")</td>
+                <td>@((line.Amount * line.Produit.SalePrice).ToString("c"))</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3" class="text-right">Total:</td>
+            <td class="text-right">@Model.Total.ToString("c")</td>
+        </tr>
+    </tfoot>
+</table>>
+
+

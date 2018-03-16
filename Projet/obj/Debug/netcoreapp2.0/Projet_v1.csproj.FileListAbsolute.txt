@@ -1,0 +1,120 @@
+C:\Users\user\Documents\Visual Studio 2017\Projects\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.deps.json
+C:\Users\user\Documents\Visual Studio 2017\Projects\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.json
+C:\Users\user\Documents\Visual Studio 2017\Projects\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.dev.json
+C:\Users\user\Documents\Visual Studio 2017\Projects\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csprojResolveAssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\user\Documents\Visual Studio 2017\Projects\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Visual Studio 2017\Projects\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfo.cs
+C:\Users\user\Documents\Visual Studio 2017\Projects\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\Portable\Desktop\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.deps.json
+C:\Users\Portable\Desktop\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.json
+C:\Users\Portable\Desktop\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.dev.json
+C:\Users\Portable\Desktop\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\Portable\Desktop\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\Portable\Desktop\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csprojResolveAssemblyReference.cache
+C:\Users\Portable\Desktop\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csproj.CoreCompileInputs.cache
+C:\Users\Portable\Desktop\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Portable\Desktop\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfoInputs.cache
+C:\Users\Portable\Desktop\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfo.cs
+C:\Users\Portable\Desktop\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\Portable\Desktop\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\user\Desktop\Projet .NET\version2\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.deps.json
+C:\Users\user\Desktop\Projet .NET\version2\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.json
+C:\Users\user\Desktop\Projet .NET\version2\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.dev.json
+C:\Users\user\Desktop\Projet .NET\version2\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\user\Desktop\Projet .NET\version2\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\user\Desktop\Projet .NET\version2\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Projet .NET\version2\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Projet .NET\version2\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\user\Desktop\Projet .NET\version2\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Projet .NET\version2\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfo.cs
+C:\Users\user\Desktop\Projet .NET\version2\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\user\Desktop\Projet .NET\version2\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\user\Desktop\Projet .NET\version3\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Projet .NET\version3\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Projet .NET\version3\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\user\Desktop\Projet .NET\version3\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Projet .NET\version3\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfo.cs
+C:\Users\user\Desktop\Projet .NET\version3\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\user\Desktop\Projet .NET\version3\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\user\Desktop\Projet .NET\version3\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.deps.json
+C:\Users\user\Desktop\Projet .NET\version3\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.json
+C:\Users\user\Desktop\Projet .NET\version3\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.dev.json
+C:\Users\user\Desktop\Projet .NET\version3\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\user\Desktop\Projet .NET\version3\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\user\Desktop\Projet .NET\version4\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.deps.json
+C:\Users\user\Desktop\Projet .NET\version4\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.json
+C:\Users\user\Desktop\Projet .NET\version4\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.dev.json
+C:\Users\user\Desktop\Projet .NET\version4\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\user\Desktop\Projet .NET\version4\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\user\Desktop\Projet .NET\version4\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Projet .NET\version4\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Projet .NET\version4\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\user\Desktop\Projet .NET\version4\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Projet .NET\version4\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfo.cs
+C:\Users\user\Desktop\Projet .NET\version4\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\user\Desktop\Projet .NET\version4\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\user\Desktop\Projet .NET\version 5\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.deps.json
+C:\Users\user\Desktop\Projet .NET\version 5\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.json
+C:\Users\user\Desktop\Projet .NET\version 5\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.dev.json
+C:\Users\user\Desktop\Projet .NET\version 5\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\user\Desktop\Projet .NET\version 5\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\user\Desktop\Projet .NET\version 5\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Projet .NET\version 5\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Projet .NET\version 5\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\user\Desktop\Projet .NET\version 5\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Projet .NET\version 5\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfo.cs
+C:\Users\user\Desktop\Projet .NET\version 5\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\user\Desktop\Projet .NET\version 5\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\Portable\Desktop\version 7\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.deps.json
+C:\Users\Portable\Desktop\version 7\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.json
+C:\Users\Portable\Desktop\version 7\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.dev.json
+C:\Users\Portable\Desktop\version 7\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\Portable\Desktop\version 7\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\Portable\Desktop\version 7\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csprojResolveAssemblyReference.cache
+C:\Users\Portable\Desktop\version 7\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csproj.CoreCompileInputs.cache
+C:\Users\Portable\Desktop\version 7\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Portable\Desktop\version 7\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfoInputs.cache
+C:\Users\Portable\Desktop\version 7\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfo.cs
+C:\Users\Portable\Desktop\version 7\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\Portable\Desktop\version 7\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\user\Desktop\Projet .NET\version8\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.deps.json
+C:\Users\user\Desktop\Projet .NET\version8\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.json
+C:\Users\user\Desktop\Projet .NET\version8\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.dev.json
+C:\Users\user\Desktop\Projet .NET\version8\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\user\Desktop\Projet .NET\version8\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\user\Desktop\Projet .NET\version8\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Projet .NET\version8\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Projet .NET\version8\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\user\Desktop\Projet .NET\version8\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Projet .NET\version8\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfo.cs
+C:\Users\user\Desktop\Projet .NET\version8\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\user\Desktop\Projet .NET\version8\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\Portable\Desktop\version8\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.deps.json
+C:\Users\Portable\Desktop\version8\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.json
+C:\Users\Portable\Desktop\version8\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.dev.json
+C:\Users\Portable\Desktop\version8\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\Portable\Desktop\version8\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\Portable\Desktop\version8\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csprojResolveAssemblyReference.cache
+C:\Users\Portable\Desktop\version8\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csproj.CoreCompileInputs.cache
+C:\Users\Portable\Desktop\version8\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Portable\Desktop\version8\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfoInputs.cache
+C:\Users\Portable\Desktop\version8\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfo.cs
+C:\Users\Portable\Desktop\version8\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\Portable\Desktop\version8\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\user\Desktop\Projet .NET\version9\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.deps.json
+C:\Users\user\Desktop\Projet .NET\version9\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.json
+C:\Users\user\Desktop\Projet .NET\version9\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.runtimeconfig.dev.json
+C:\Users\user\Desktop\Projet .NET\version9\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\user\Desktop\Projet .NET\version9\Projet_v1\Projet_v1\bin\Debug\netcoreapp2.0\Projet_v1.pdb
+C:\Users\user\Desktop\Projet .NET\version9\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Projet .NET\version9\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Projet .NET\version9\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\user\Desktop\Projet .NET\version9\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Projet .NET\version9\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.AssemblyInfo.cs
+C:\Users\user\Desktop\Projet .NET\version9\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.dll
+C:\Users\user\Desktop\Projet .NET\version9\Projet_v1\Projet_v1\obj\Debug\netcoreapp2.0\Projet_v1.pdb

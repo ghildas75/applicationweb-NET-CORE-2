@@ -1,0 +1,42 @@
+﻿
+
+
+@using Microsoft.AspNetCore.Identity
+@*@using Projet.Models*@
+@model IEnumerable<Projet.Models.Produit>
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+@*@await Html.PartialAsync("_Popular")*@
+
+@if (SignInManager.IsSignedIn(User))
+{
+
+    <h2>Les produits de la categorie @Model.FirstOrDefault().Category.CategoryName</h2>
+    
+    <div class="row">
+        @foreach (var produit in Model)
+        {
+            @Html.Partial("_SommaireProduitloggedIn", produit);
+
+        }
+        <a asp-action="More" asp-controller="Home" asp-route-id="@Model.FirstOrDefault().Category.CategoryId"><strong>Parcourir plus de @Model.FirstOrDefault().Category.CategoryName cliquer ici.</strong></a>
+    </div>
+
+
+
+
+}
+else
+{
+    <h2>Les produits populaires de la semaine pour la categorie @Model.FirstOrDefault().Category.CategoryName</h2>
+    <h4>Les plus populaires- Juste pour vous</h4>
+    <div class="row">
+        @foreach (var produit in Model)
+        {
+            @Html.Partial("_SommaireProduit", produit);
+
+        }
+        <a asp-action="More" asp-controller="Home" asp-route-id="@Model.FirstOrDefault().Category.CategoryId"><strong>Parcourir plus de @Model.FirstOrDefault().Category.CategoryName cliquer ici.</strong></a>
+    </div>
+
+}

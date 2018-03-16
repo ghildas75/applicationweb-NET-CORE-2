@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "Liste produit";
+}
+
+<h2>@Model.CurrentCategory</h2>
+@foreach(Produit prod in Model.Produits)
+{
+    @Html.Partial("_SommaireProduit",prod)
+
+}
+

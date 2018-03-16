@@ -1,0 +1,12 @@
+﻿@model HomeViewModel
+@*@await Html.PartialAsync("_Popular")*@
+<h2>Les produits populaires de la semaine</h2>
+<h4>Les plus populaires- Juste pour vous</h4>
+
+<div class="row">
+    @foreach (var produit in Model.PopularProduit)
+    {
+        @Html.Partial("_SommaireProduit", produit);
+
+    }
+</div>

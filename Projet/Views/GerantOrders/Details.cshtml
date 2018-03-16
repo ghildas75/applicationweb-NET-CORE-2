@@ -1,0 +1,99 @@
+﻿@model Order
+@{
+    ViewData["Title"] = "Details";
+}
+<h2>Details de la commande.</h2>
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Nom Utilisateur:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Username)
+        </dd>
+        <dt>
+            Prenom:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt>
+            Nom de famille:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+        <dt>
+            Addresse:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt>
+            Ville:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+        <dt>
+            Province:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Province)
+        </dd>
+        <dt>
+            Code postale:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PostalCode)
+        </dd>
+        <dt>
+            Pays:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Country)
+        </dd>
+        <dt>
+            Mode de paiment:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Payement)
+        </dd>
+        <dt>
+            Telephone:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+        <dt>
+            Courriel:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>
+            Total a paye:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.OrderTotal)
+        </dd>
+        <dt>
+            Date de la commande:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.OrderDate)
+        </dd>
+        <dt>
+            Etat de livraison:
+        </dt>
+        <dd>
+            En cours  @*Hardcoded*@ 
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.OrderId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

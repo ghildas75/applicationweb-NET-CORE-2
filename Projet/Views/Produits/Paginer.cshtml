@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Produit>
+@using Microsoft.AspNetCore.Http;
+
+@inject IHttpContextAccessor  context
+
+@*@{Layout = "_LayoutMore";}*@
+
+<h2>Les @Model.FirstOrDefault().Category.CategoryName disponible  </h2>
+
+
+<div class="row">
+    @foreach (var produit in Model)
+    {
+        @Html.Partial("_SommaireProduitLoggedIn", produit);
+
+    }
+</div>
+
+<div>
+    <ul class="nav nav-pills">
+        @for(int i=0; i<ViewBag.TotalPages;i++)
+        {
+            string className = "`";
+            if (i == ViewBag.CurrentPage)
+            {
+                className = "active";
+
+            }
+
+                <li class="@className">
+                <a asp-action="Paginer" asp-route-flag="2" asp-route-size="@context.HttpContext.Session.GetInt32("size")" asp-route-page="@i">@(i + 1) </a>
+            </li>
+        }
+    </ul>
+</div>

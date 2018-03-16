@@ -1,0 +1,60 @@
+﻿@model ShoppingCartItem
+@{
+    ViewData["Title"] = "Delete";
+}
+<h2>Suppression</h2>
+<h3>Vous etes sure de supprimer cela?</h3>
+<div>
+    <h4>Article de panier</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Status:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CartStatus)
+        </dd>
+        <dt>
+            Quantite:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Amount)
+        </dd>
+        <dt>
+            Date:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateAjout)
+        </dd>
+        <dt>
+            Identifiant Panier:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ShoppingCartId)
+        </dd>
+        <dt>
+            Produit:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Produit.Name)
+        </dd>
+        <dt>
+            Categorie prod:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Produit.Category.CategoryName)
+        </dd>
+        <dt>
+            Prix ($):
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Produit.AskedPrice)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ShoppingCartItemID" />
+        <input type="submit" value="Supprimer" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

@@ -1,0 +1,90 @@
+﻿
+@model ShoppingCartViewModel
+@inject ApplicationDbContext context
+
+<div class="row checkoutForm">
+    <img src="~/images/icon.jpg" />
+    <h2>Your shopping cart</h2>
+    <h4>Here are the products in your shopping cart.</h4>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Selected amount</th>
+                <th>Product</th>
+                <th class="text-right">Price</th>
+                <th class="text-right">Subtotal</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var line in Model.ShoppingCart.ShoppingCartItems)
+            {
+                <tr>
+                    <td class="text-center">@line.Amount</td>
+                    <td class="text-left">@line.Produit.Name</td>
+                    <td class="text-right">@line.Produit.AskedPrice.ToString("c")</td>
+                    <td class="text-right">
+                        @((line.Amount * line.Produit.AskedPrice).ToString("c"))
+                    </td>
+                    <td class="text-center"><a class="glyphicon glyphicon-remove text-danger remove" asp-controller="ShoppingCart" asp-action="RemoveFromShoppingCart" asp-route-produitId="@line.Produit.ProduitId">supprimer</a></td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-right  text-info">Message important:</td>
+                <td class="text-right text-info">
+                    <strong>Pour un achat de plus de 1000$ la livraison sera gratuite</strong>
+                </td>
+            </tr>
+           
+            <tr>
+                <td colspan="3" class="text-right">Total avant taxes:</td>
+                <td class="text-right">
+                    @Model.shoppingCartTotal.ToString("c")
+                </td>
+            </tr>
+
+            @if (Model.shoppingCartTotal >= (decimal)context.Entreprise.FirstOrDefault().LivraisonGratuite)
+            {
+                <tr>
+                    <td colspan="3" class="text-right">Mode de livraison:</td>
+                    <td class="text-right">
+                        <span style="color: green">La livraison est gratuite</span>
+                    </td>
+                </tr>
+            }
+
+            <tr>
+                <td colspan="3" class="text-right">Total apres taxes:</td>
+                <td class="text-right">
+                    @{
+                        var tps = 1 + (decimal)context.Entreprise.FirstOrDefault().TPS;
+                        var totalAv = Model.shoppingCartTotal * tps;
+                        var total = totalAv.ToString("0.00$");
+                    }
+                    @total
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="text-right">
+        <div class="btn-group ">
+            <a class="btn btn-success" asp-controller="Order" asp-action="Checkout">Check out</a>
+            <div class="btn-group">
+                <a class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    Add more product<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a asp-controller="Home" asp-action="More" asp-route-id="1"> Ordinateurs </a></li>
+                    <li><a asp-controller="Home" asp-action="More" asp-route-id="3"> Imprimantes </a></li>
+                    <li><a asp-controller="Home" asp-action="More" asp-route-id="5"> Tabelettes </a></li>
+                    <li><a asp-controller="Home" asp-action="More" asp-route-id="6"> TVs</a></li>
+                    <li><a asp-controller="Home" asp-action="More" asp-route-id="2">  Meubles </a></li>
+                    <li><a asp-controller="Home" asp-action="More" asp-route-id="4">Bureaux </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

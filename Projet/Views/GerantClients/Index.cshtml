@@ -1,0 +1,105 @@
+﻿@model IEnumerable<Client>
+
+@{
+    ViewData["Title"] = "Liste Clients";
+}
+
+<h2>La liste des clients</h2>
+
+
+<table class="table table-hover table-striped table-bordered">
+    <thead>
+        <tr>
+                <th>
+                    Nombre de fois connecte:
+                </th>
+                <th>
+                    Date d'inscription:
+                </th>
+                <th>
+                    La date de dernier connexion:
+                </th>
+                <th>
+                    Creer par:
+                </th>
+                <th>
+                    Prenom:
+                </th>
+                <th>
+                   Nom de famille:
+                </th>
+                <th>
+                    Adresse:
+                </th>
+                <th>
+                    Ville:
+                </th>
+                <th>
+                    Province:
+                </th>
+                <th>
+                    Code Postale:
+                </th>
+                <th>
+                    Pays:
+                </th>
+                <th>
+                    Telephone:
+                </th>
+                <th>
+                   Courriel:
+                </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ConnexionNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastConnected)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Province)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PostalCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Country)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.clientID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.clientID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.clientID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

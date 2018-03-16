@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Produit>
+@*@{Layout = "_LayoutMore";}*@
+   
+<h2>Les @Model.FirstOrDefault().Category.CategoryName disponible  </h2>
+@*<h4>Les plus populaires- Juste pour vous</h4>*@
+
+<div class="row">
+    @foreach (var produit in Model)
+    {
+        @Html.Partial("_SommaireProduitLoggedIn", produit);
+
+    }
+</div>

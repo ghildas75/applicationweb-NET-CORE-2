@@ -1,0 +1,61 @@
+﻿@model Client
+@{
+    ViewData["Title"] = "Delete";
+}
+<h2>Supprimer</h2>
+
+<div>
+    <h4>Client</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Nbr Connexions:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ConnexionNumber)
+        </dd>
+        <dt>
+            Inscris le:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CreateDate)
+        </dd>
+        <dt>
+            Derniere cnx:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LastConnected)
+        </dd>
+        <dt>
+            Cree par:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CreatedBy)
+        </dd>
+        <dt>
+            Prenom:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+        <dt>
+            Nom famille:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            Courriel:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="clientID" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

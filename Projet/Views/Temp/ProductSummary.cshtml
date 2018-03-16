@@ -1,0 +1,86 @@
+﻿@*@model Produit
+@{
+    ViewData["Title"] = "ProductSummary";
+}
+<h2>ProductSummary</h2>
+<div class="col-md-4">
+    <div class="thumbnail">
+        <img src=@Model.ImageThumbNailUrl alt="no image" />
+        <div class="caption">
+            <h3 class="pull-right">@Model.Price.ToString("c")</h3>
+            <h3>
+                <a asp-controller="Produit" asp-action="Details" asp-route-id="@Model.ProductId">
+                    @Model.Name
+                </a>
+            </h3>
+            <p>@Model.ShortDescription</p>
+        </div>
+        <div class="addToCart">
+            <p class="button">
+                <a class="btn btn-primary" asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-id="@Model.ProductId">
+                    Add to Cart
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="productDiv">
+
+</div>
+
+@section scripts {
+
+    <script>
+        funtion LoadProducts() {
+
+            $.ajax({
+
+                type: "GET",
+                url: "/api/ProductData",
+                dataType: "json",
+                success: function (jsonData) {
+
+                    if (jsonData == null) {
+                        alert("No data returned");
+                        return;
+                    }
+
+                    $.each(jsonData, function (index, product) {
+
+                        var ProductSummaryString = '<div class="col-md-4">' +
+                            '                           <div class="thumbnail">' +
+                            '                               <img src=Product.ImageThumbNailUrl alt="no image" />' +
+                            '                               <div class="caption">' +
+                            '                                   <h3 class="pull-right"> + product.price + </h3>' +
+                            '                                   <h3>' +
+                            '                                       <a asp-controller="Produit" asp-action="Details" asp-route-id="Product.ProductId">' + 'Product.Name' +
+
+                            '                                        </a>' +
+                            '                                    </h3>' +
+                            '                                    <p>Product.ShortDescription</p>' +
+                            '                                 </div>' +
+                            '                                 <div class="addToCart">' +
+                            '                                     <p class="button">' +
+                            '                                        <a class="btn btn-primary" asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-id="Product.ProductId">' +
+                            '                                             Add to Cart' +
+                            '                                        </a>' +
+                            '                                      </p>' +
+                            '                                 </div>' +
+                            '                           </div>' +
+                            '                     </div>';
+
+                        $('#ProductDiv').append(ProductSummaryString);
+
+                    });
+                    error: function(ex) { 
+
+                        alert(ex);
+                    }
+
+            });
+
+            return false;
+        }
+    </script>
+}*@

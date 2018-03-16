@@ -1,0 +1,166 @@
+﻿@*@using Projet.Models*@
+@using Microsoft.EntityFrameworkCore
+@using System.Linq
+
+@inject ApplicationDbContext context
+@model int
+
+@{
+    ViewBag.Title = "Enregistrement de votre commande a reussi";
+    var order = context.orders.Include("OrderLines").SingleOrDefault(o => o.OrderId == Model);
+}
+<h2>@ViewBag.Title</h2>
+<hr><hr>
+
+<h1>BON DE COMMANDE A IMPRIMER</h1>
+
+<p>Merci pour l'achat! Le numero de votre ordre est : @Model</p>
+<p>Les details de votre comemnade sont comme suit </p><hr>
+
+<div>
+    <h2>Commande</h2>
+    <hr>
+    <dl class="dl-horizontal">
+        <dt>
+            Username
+        </dt>
+        <dd>
+            @order.Username
+        </dd>
+        <dt>
+            FirstName
+        </dt>
+        <dd>
+            @order.FirstName
+        </dd>
+        <dt>
+            LastName
+        </dt>
+        <dd>
+            @order.LastName
+        </dd>
+        <dt>
+            Address
+        </dt>
+        <dd>
+            @order.Address
+        </dd>
+        <dt>
+            Ville
+        </dt>
+        <dd>
+            @order.City
+        </dd>
+        <dt>
+            Province
+        </dt>
+        <dd>
+            @order.Province
+        </dd>
+        <dt>
+            PostalCode
+        </dt>
+        <dd>
+            @order.PostalCode
+        </dd>
+        <dt>
+            Country
+        </dt>
+        <dd>
+            @order.Country
+        </dd>
+        <dt>
+            Mode de payement:
+        </dt>
+        <dd>
+            @order.Payement
+        </dd>
+        <dt>
+            Telephone:
+        </dt>
+        <dd>
+            @order.PhoneNumber
+        </dd>
+        <dt>
+            Courriel:
+        </dt>
+        <dd>
+            @order.Email
+        </dd>
+        <dt>
+            Le Total:
+        </dt>
+        <dd>
+            @order.OrderTotal
+        </dd>
+        <dt>
+            La date de la commande:
+        </dt>
+        <dd>
+            @order.OrderDate
+        </dd>
+    </dl>
+</div>
+
+<h2>Details de la commande</h2>
+<hr>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>
+                Quantity:
+            </th>
+            <th>
+                UnitPrice:
+            </th>
+            <th>
+                Commande
+            </th>
+            <th>
+               Produit Id
+            </th>
+            <th>Nom produit:</th>
+            <th>Description:</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in order.OrderLines)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UnitPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Order.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ProduitId)
+                    @{ var produit = context.produits.SingleOrDefault(p => p.ProduitId == item.ProduitId); }
+                </td>
+                <td>
+                    @produit.Name
+                    
+                </td>
+                <td>
+                    @produit.ShortDescription
+
+                </td>
+                
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+
+
+<p>
+    pour plus de produit dans notre @Html.ActionLink("catalog", "More", "Home")
+</p>
+

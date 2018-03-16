@@ -1,0 +1,21 @@
+﻿@model PanierViewModel
+@if (@Model.ShoppingCart.ShoppingCartItems.Count >= 0)
+{
+    <li>
+        <a asp-area="" asp-controller="ShoppingCart" asp-action="Index">
+            <i class="fa fa-shopping-cart" style="font-size:38px;color:burlywood"></i>
+            <span id="cart-status" class="badge cartcount"><strong>@Model.ShoppingCart.ShoppingCartItems.Count</strong></span>
+        </a>
+    </li>
+
+}
+else
+{
+
+    @*<li>
+        <a asp-area="" asp-controller="ShoppingCart" asp-action="Index">
+            <i class="fa fa-shopping-cart" style="font-size:38px;color:burlywood"></i>
+            <span id="cart-status" class="badge cartcount"><strong>0</strong></span>
+        </a>
+    </li>*@
+}

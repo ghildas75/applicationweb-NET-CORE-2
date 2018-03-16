@@ -1,0 +1,68 @@
+﻿@model IEnumerable<ShoppingCartItem>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Liste des articles par panier</h2>
+
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+                <th>
+                    Status:
+                </th>
+                <th>
+                    Quantite:
+                </th>
+                <th>
+                    Date:
+                </th>
+                <th>
+                    Identifiant Panier:
+                </th>
+            <th>
+                Produit:
+            </th>
+            <th>
+                Categorie:
+            </th>
+            <th>
+                Prix ($):
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CartStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateAjout)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ShoppingCartId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Produit.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Produit.Category.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Produit.AskedPrice)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.ShoppingCartItemID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ShoppingCartItemID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

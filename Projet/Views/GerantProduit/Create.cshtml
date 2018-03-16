@@ -1,0 +1,88 @@
+﻿@model Produit
+
+@{
+    ViewData["Title"] = "Nouveau Produit";
+}
+
+<h2> @ViewData["Title"]</h2>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-offset-3  col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Nom du produit:</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AskedPrice" class="control-label">Prix:</label>
+                <input asp-for="AskedPrice" class="form-control" />
+                <span asp-validation-for="AskedPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SalePrice" class="control-label">Prix de vente:</label>
+                <input asp-for="SalePrice" class="form-control" />
+                <span asp-validation-for="SalePrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ShortDescription" class="control-label">Description Courte:</label>
+                <textarea cols="200" rows="1" asp-for="ShortDescription" class="form-control"></textarea>
+                <span asp-validation-for="ShortDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LongDescription" class="control-label">Description Longue:</label>
+                <textarea cols="200" rows="10" asp-for="LongDescription" class="form-control"></textarea>
+                <span asp-validation-for="LongDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Weight" class="control-label">Poids</label>
+                <input asp-for="Weight" class="form-control" />
+                <span asp-validation-for="Weight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageUrl" class="control-label">URL Image(~/images/*.*)</label>
+                <input  asp-for="ImageUrl" class="form-control" />
+                <span asp-validation-for="ImageUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        
+                        <input asp-for="isPopular" /> Popularite
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="checkbox">
+                    <label>
+                        
+                        <input asp-for="InStock" /> En stock
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantite" class="control-label">Quantite:</label>
+                <input asp-for="Quantite" class="form-control" />
+                <span asp-validation-for="Quantite" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="@Model.Category.CategoryName" class="control-label">Nom categorie:</label>
+                <select asp-for="@Model.Category.CategoryName" class ="form-control" asp-items="ViewBag.CategoryName"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Ajouter au catalogue" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

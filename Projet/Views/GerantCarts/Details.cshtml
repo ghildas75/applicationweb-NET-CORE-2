@@ -1,0 +1,59 @@
+﻿@model ShoppingCartItem
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details de l article</h2>
+
+<div>
+    <h4>Article</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Status:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CartStatus)
+        </dd>
+        <dt>
+            Quantite:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Amount)
+        </dd>
+        <dt>
+            Date:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateAjout)
+        </dd>
+        <dt>
+           Identifiant Panier:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ShoppingCartId)
+        </dd>
+        <dt>
+            Produit:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Produit.Name)
+        </dd>
+        <dt>
+            Categorie prod:
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Produit.Category.CategoryName)
+        </dd>
+        <dt>
+            Prix ($):
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Produit.AskedPrice)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
